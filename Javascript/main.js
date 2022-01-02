@@ -19,7 +19,6 @@ $html.animate({scrollTop:0},10);
 // const link4=document.getElementById("contact");
 
 $(window).on("wheel", function(e){
-    checkLink();
     if($html.is(":animated")) return;
     
 	if(e.originalEvent.deltaY > 0){
@@ -46,6 +45,12 @@ function checkLink(){
         link2.style.color="#1e1e1e";
         link3.style.color="#1e1e1e";
         link4.style.color="#1e1e1e";
+
+        // document.getElementById("main-profile").style.animationDelay="1s";
+        // document.getElementById("about-me").style.animationDelay="1s";
+        // document.getElementById("main-profile").style.animation="fadein 1s";
+        // document.getElementById("about-me").style.animation="fadein 1s";
+        // document.getElementsByClassName("main-txt").style.animation="fadein 5s";
     }else if(page==2){
         link1.style.color="#e73c7e";
         link2.style.color="#1e1e1e";

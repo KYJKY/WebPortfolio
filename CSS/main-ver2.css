@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body {width: 100%; height: 100%;}
 html{
     font-size: 16px;
@@ -174,7 +180,88 @@ main #about-me p{
     color: rgb(245, 245, 245);
 }
 
+#profile div{
+    color: rgb(30, 30, 30);
+    padding: 5% 8%;
+    text-align: center;
+}
+.maintitle{
+    font-family: 'twayair';
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.subtitle{
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+#profile div ul li{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-align: left;
+}
+#profile div ul li del{
+    font-size: 0.8rem;
+}
 
+#skill .subtitle{
+    margin-bottom: 0;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: rgb(30, 30, 30);
+    padding: 3% 5%;
+    text-align: center;
+}
+#cardset{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.card{
+    width: 10%;
+    margin-top: 4rem;
+}
+.card img{
+    width: 100%;
+}
+#description{
+    width: 100%;
+    /* text-align: left; */
+    font-size: 1.5rem;
+}
+#description ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+#contact{
+    color: rgb(30, 30, 30);
+    padding: 5% 8%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#contact ul li{
+    font-size: 2rem;
+    list-style: none;
+    margin-bottom: 5rem;
+}
 
 
 
