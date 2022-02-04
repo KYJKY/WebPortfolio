@@ -1,3 +1,9 @@
+window.onload=function(){
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+}
+
+
+
 window.addEventListener("wheel", function(e){
 	e.preventDefault();
 },{passive : false});
