@@ -15,17 +15,17 @@
 </head>
 <body scroll="no">
     <header>
-        <div id="logo"><a id="link0" >KYJ<br>Portfolio</a></div>
+        <div id="headerLogo"><a id="link0" >KYJ<br>Portfolio</a></div>
         <nav>
-            <div class="menu"><a id="link1" >profile</a></div>
-            <div class="menu"><a id="link2" >skill</a></div>
-            <div class="menu"><a id="link3" >project</a></div>
-            <div class="menu"><a id="link4" >contact</a></div>
+            <div class="btn_menu"><a id="link1" >profile</a></div>
+            <div class="btn_menu"><a id="link2" >skill</a></div>
+            <div class="btn_menu"><a id="link3" >project</a></div>
+            <div class="btn_menu"><a id="link4" >contact</a></div>
         </nav>
         
     </header>
-    <main id="top">
-        <div id="main-profile"><img src="images/KakaoTalk_20211229_031918347.jpg" alt="프로필사진"></div>
+    <main>
+        <div id="mainImg"><img src="images/KakaoTalk_20211229_031918347.jpg" alt="프로필사진"></div>
         <div class="main-txt">안녕하세요😃<br>Back-end 개발자 <span class="myname">김연중</span> 입니다.</div>
         <div id="about-me">
             <p>
@@ -38,35 +38,68 @@
     </main>
 
     <section id="profile">
-        
-            <div class="slider">
-                <div class="slider-list">
-                    <span class="maintitle"> - About Me - </span>
-                    <span class="subtitle">👶 유년기 ~ 학창시절 🤷‍♂️</span>
-                    <ul>
-                        <li>1997년에 저희 집안에서 첫째로 태어나 많은 사랑💗을 받으며 자랐습니다. 유년기 특별한 기억은 잘 안납니다.🙄</li>
-                        <li>8살이 되던 해에 남동생👶🏻이 태어나 동생을 종종 돌봤던 기억이 있습니다.</li>
-                        <li>어렸을 때, 게임🎮을 정말 좋아했습니다. 초등학생 때는 스타크래프트 유즈맵을 만들면서 트리거 조작 알고리즘에 대해 고민해보았습니다.</li>
-                        <li>중학생 때는 점심시간 때 항상 축구⚽를 했습니다. 열정만큼 잘하진 못했습니다.😓</li>
-                        <li>고등학생 때는 마지못해 공부를 했습니다.😫 돌이켜보면 세상에 대한 넓은 이해가 필요한 순간이었다고 생각이 듭니다.🤔 </li>
-                        <li>고등학생 때의 점심시간은 축구를 안했기 때문에 고등학생부터 점점 살이 찌기 시작했습니다.🍗 그러나 수능을 본 후, 혹독한 다이어트🏃‍♂️를 통해 대학교 입학 전, 10kg을 뺐습니다.👍</li>
-                        
-                    </ul>
-                </div>
-                <div class="slider-list">
-                    <span class="maintitle"> - About Me - </span>
-                    <span class="subtitle">👨‍🎓 대학생 👨‍🎓</span>
-                    <ul>
-                        <li>20살, 남서울대 멀티미디어과에 입학합니다. 1학기에 예상치 못한 성적장학금🏆을 받고 이를 계기로 <del>돈을 위해</del> 열심히 공부하는 학생👨‍💻이 됩니다. </li>
-                        <li>1학년을 마치고 21살 군대를 갑니다. 육군 군견교육대에 자대배치를 받아 군견 '예담🐕‍🦺'과 군생활을 보냅니다. 지금도 연락하는 좋은 사람들을 많이 만났습니다. </li>
-                        <li>학교에서 한 학기동안 진행하는 멘토링 프로그램을 3학기동안 참여하여 같은 과의 학사경고⚠️받은 학생을 1:1로 멘토링했습니다. 3명의 멘티 전부 성적을 향상시켰으며 장학금🏆을 받았습니다. 한 멘티는 무려 과에서 2등🥈까지 만들었습니다.</li>
-                        <li>4학년, 졸업작품을 진행합니다. 진행 도중 교수님의 피드백에 납득하지 못한 저는 <del>교수님께 대들다가</del> 교수님과 갈등💥을 빚습니다. 이를 계기로 많은 것을 배웠습니다. 오히려 4학년 때 이런 경험을 한 것에 대해 지금은 감사하게 생각합니다. <del>죄송합니다 교수님..</del></li>
-                        <li>4학년 2학기, 쌍용교육센터의 Java 백엔드 개발자 과정을 진행합니다. 많은 사람들과 프로젝트를 진행하며 경험을 쌓습니다.</li>
-                    </ul>
+        <div class="slider">
+            <div class="slider-list">
+                <div id="resume" class="episode">
+                    <div id="myInfo">
+                        <div id="boxProfileLeft">
+                            <div id="boxProfileTitle">Profile</div>
+                            <div id="boxProfileImg"></div>
+                            <div>
+                                <p>김 연 중</p>
+                                <p>illulizer@gmail.com</p>
+                                <p>010 3901 0164</p>
+                            </div>
+                        </div>
+                        <div id="boxProfileRight">
+                            <div>
+                                <div class="box_content_right">
+                                    <div class="box_content_right_txt">
+                                        <h1>소개</h1>
+                                        <p>안녕하세요</p>
+                                    </div>
+                                </div>
+                                <div style="border-right:2px solid #7e6e62; width: 2px; height: 85%;"></div>
+                                <div class="box_content_right">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <div>
-            </div> -->
+            <div class="slider-list">
+                <div id="episode1" class="episode">
+                    <div class="episode-content">
+                        <span class="maintitle"> - About Me - </span>
+                        <span class="subtitle">👶 유년기 ~ 학창시절 🤷‍♂️</span>
+                        <ul>
+                            <li>1997년에 저희 집안에서 첫째로 태어나 많은 사랑💗을 받으며 자랐습니다. 유년기 특별한 기억은 잘 안납니다.🙄</li>
+                            <li>8살이 되던 해에 남동생👶🏻이 태어나 동생을 종종 돌봤던 기억이 있습니다.</li>
+                            <li>어렸을 때, 게임🎮을 정말 좋아했습니다. 초등학생 때는 스타크래프트 유즈맵을 만들면서 트리거 조작 알고리즘에 대해 고민해보았습니다.</li>
+                            <li>중학생 때는 점심시간 때 항상 축구⚽를 했습니다. 열정만큼 잘하진 못했습니다.😓</li>
+                            <li>고등학생 때는 마지못해 공부를 했습니다.😫 돌이켜보면 세상에 대한 넓은 이해가 필요한 순간이었다고 생각이 듭니다.🤔 </li>
+                            <li>고등학생 때의 점심시간은 축구를 안했기 때문에 고등학생부터 점점 살이 찌기 시작했습니다.🍗 그러나 수능을 본 후, 혹독한 다이어트🏃‍♂️를 통해 대학교 입학 전, 10kg을 뺐습니다.👍</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-list">
+                <div id="episode2" class="episode">
+                    <div class="episode-content">
+                        <span class="maintitle"> - About Me - </span>
+                        <span class="subtitle">👨‍🎓 대학생 👨‍🎓</span>
+                        <ul>
+                            <li>20살, 남서울대 멀티미디어과에 입학합니다. 1학기에 예상치 못한 성적장학금🏆을 받고 이를 계기로 <del>돈을 위해</del> 열심히 공부하는 학생👨‍💻이 됩니다. </li>
+                            <li>1학년을 마치고 21살 군대를 갑니다. 육군 군견교육대에 자대배치를 받아 군견 '예담🐕‍🦺'과 군생활을 보냅니다. 지금도 연락하는 좋은 사람들을 많이 만났습니다. </li>
+                            <li>학교에서 한 학기동안 진행하는 멘토링 프로그램을 3학기동안 참여하여 같은 과의 학사경고⚠️받은 학생을 1:1로 멘토링했습니다. 3명의 멘티 전부 성적을 향상시켰으며 장학금🏆을 받았습니다. 한 멘티는 무려 과에서 2등🥈까지 만들었습니다.</li>
+                            <li>4학년, 졸업작품을 진행합니다. 진행 도중 교수님의 피드백에 납득하지 못한 저는 <del>교수님께 대들다가</del> 교수님과 갈등💥을 빚습니다. 이를 계기로 많은 것을 배웠습니다. 오히려 4학년 때 이런 경험을 한 것에 대해 지금은 감사하게 생각합니다. <del>죄송합니다 교수님..</del></li>
+                            <li>4학년 2학기, 쌍용교육센터의 Java 백엔드 개발자 과정을 진행합니다. 많은 사람들과 프로젝트를 진행하며 경험을 쌓습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </section>
     
@@ -105,14 +138,18 @@
     <section id="project">
         <div class="slider">
             <div class="slider-list">
-                <span class="maintitle"> - Project - </span>
-                <span class="subtitle">1</span>
-                
+                <div class="box_project">
+                    <iframe src="https://www.youtube.com/embed/Mf2pIn3V_HA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="box_project_Info">
+                        <h1>맘스홀릭(유아용품 중고거래) - JSP Project</h1>
+                    </div>
+                </div>
             </div>
             <div class="slider-list">
-                <span class="maintitle"> - Project - </span>
-                <span class="subtitle">2</span>
-                
+                <div class="box_project">
+                    <iframe src="https://www.youtube.com/embed/Mf2pIn3V_HA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="box_project_Info">test</div>
+                </div>
             </div>
         </div>
     </section>
