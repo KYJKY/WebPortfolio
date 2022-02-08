@@ -34,9 +34,6 @@
     nav > div{
         margin: 1.5rem;
     }
-    .btn_menu a{
-        color:white
-    }
     header > #headerLogo{
         width: 40%;
         text-align: left;
@@ -44,7 +41,7 @@
         display: flex;
         align-items: center;
     }
-    #myInfo #boxProfileLeft #boxProfileImg{
+    .myInfo .boxProfileLeft #boxProfileImg{
         width: 65%;
         height: 25%;
     }
@@ -55,7 +52,45 @@
         font-size: 1.5rem;
         margin-left: 1rem;
     }
-    main, #profile, #skill, #project, #contact{width: 100%; height: 93vh; margin-left: 0; margin-top: 7vh;}
+    main, #profile, #skill, #project, #contact{width: 100%; height: 93vh; margin-left: 0; padding-top: 7vh; margin-bottom: 7vh;}
+    main{height: 100vh; padding-bottom: 10vh; margin-bottom: 0; margin-top: 7vh;}
+    
+    /* 프로필 반응형 */
+    .myInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .myInfo .boxProfileLeft, .myInfo .boxProfileRight{
+        width: 100%;
+        margin: 0;
+    }
+    .myInfo .boxProfileLeft{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10%;
+        padding-bottom: 0;
+    }
+    .myInfo .boxProfileLeft div:last-child{
+        margin-right: 4%;
+    }
+    .myInfo .boxProfileLeft div:last-child > p{
+        margin: 0;
+    }
+    .myInfo #boxProfileImg{display: none;}
+    .myInfo .boxProfileRight > div{
+        height: 100%;
+    }
+    .myInfo .boxProfileRight{
+        display: flex;
+        justify-content: center;
+        height: 85%;
+        padding-bottom: 5%;
+    }
+    .boxProfileTitle{
+        width: 20%;
+        margin-left: 4%;
+        margin-bottom: 0;
+    }
     
 }
 
