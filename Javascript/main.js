@@ -24,7 +24,7 @@ $html.animate({scrollTop:0},10);
 // const link4=document.getElementById("contact");
 
 $(window).on("wheel", function(e){
-    if(matchMedia("screen and (min-width: 820px)").matches){
+    if(matchMedia("screen and (min-width: 821px)").matches){
         if($html.is(":animated")) return;
         
         if(e.originalEvent.deltaY > 0){
