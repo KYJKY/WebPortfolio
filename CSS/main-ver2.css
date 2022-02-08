@@ -240,8 +240,8 @@ main #about-me p{
     font-weight: bold;
 }
 #myInfo #boxProfileLeft #boxProfileImg{
-    width: 35%;
-    height: 30%;
+    width: 40%;
+    height: 15%;
     background-image: url(../images/profile1.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ main #about-me p{
     padding-left: 5%;
 }
 .box_content_right_txt > div{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .box_content_right:last-child > .box_content_right_txt > div{
     margin-bottom: 3.5rem;

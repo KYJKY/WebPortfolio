@@ -1,12 +1,70 @@
-@media screen and (min-width: 69px) {html{font-size: 5px;}}
-@media screen and (min-width: 169px) {html{font-size: 6px;}}
-@media screen and (min-width: 269px) {html{font-size: 7px;}}
-@media screen and (min-width: 369px) {html{font-size: 8px;}}
-@media screen and (min-width: 469px) {html{font-size: 9px;}}
-@media screen and (min-width: 569px) {html{font-size: 10px;}}
-@media screen and (min-width: 669px) {html{font-size: 11px;}}
-@media screen and (min-width: 769px) {html{font-size: 12px;}}
-@media screen and (min-width: 869px) {html{font-size: 13px;}}
-@media screen and (min-width: 969px) {html{font-size: 14px;}}
-@media screen and (min-width: 1069px) {html{font-size: 15px;}}
-@media screen and (min-width: 1169px) {html{font-size: 16px;}}
+@media screen and (max-width: 2000px) {
+    html{font-size: 16px;} 
+    header{width: 20%;}
+    main, #profile, #skill, #project, #contact{width: 80%; margin-left: 20%;}
+}
+
+@media screen and (max-width: 1200px) {
+    html{font-size: 14px;} 
+    header{width: 18%;}
+    main, #profile, #skill, #project, #contact{width: 82%; margin-left: 18%;}
+}
+
+@media screen and (max-width: 1000px) {
+    html{font-size: 12px;} 
+    header{width: 16%;}
+    main, #profile, #skill, #project, #contact{width: 84%; margin-left: 16%;}
+}
+
+@media screen and (max-width: 820px) {
+    html{font-size: 12px;} 
+    header{
+        width: 100%;
+        height: 7vh;
+        flex-direction: row;
+        justify-content: space-between;
+        top: 0;
+        box-shadow: 0 2px rgba(70, 70, 70, 0.342);
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    nav > div{
+        margin: 1.5rem;
+    }
+    .btn_menu a{
+        color:white
+    }
+    header > #headerLogo{
+        width: 40%;
+        text-align: left;
+
+        display: flex;
+        align-items: center;
+    }
+    #myInfo #boxProfileLeft #boxProfileImg{
+        width: 65%;
+        height: 25%;
+    }
+    .bx-wrapper{
+        height: 93vh;
+    }
+    header > #headerLogo > a {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    main, #profile, #skill, #project, #contact{width: 100%; height: 93vh; margin-left: 0; margin-top: 7vh;}
+}
+
+@media screen and (max-width: 500px) {
+    html{font-size: 10px;} 
+    header{
+        width: 100%;
+        height: 7vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    main, #profile, #skill, #project, #contact{width: 100%; height: 93vh; margin-left: 0; }
+}
