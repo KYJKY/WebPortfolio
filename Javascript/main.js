@@ -2,7 +2,9 @@
 
 
 window.addEventListener("wheel", function(e){
-	e.preventDefault();
+	if(matchMedia("screen and (min-width: 820px)").matches){ 
+        e.preventDefault();
+    }
 },{passive : false});
 
 var link0=document.getElementById("link0");
@@ -22,24 +24,24 @@ $html.animate({scrollTop:0},10);
 // const link4=document.getElementById("contact");
 
 $(window).on("wheel", function(e){
-    if($html.is(":animated")) return;
-    
-	if(e.originalEvent.deltaY > 0){
-        if(page== lastPage) return;
+    if(matchMedia("screen and (min-width: 820px)").matches){
+        if($html.is(":animated")) return;
         
-		page++;
-        checkLink();
-	}else if(e.originalEvent.deltaY < 0){
-        if(page == 1) return;
+        if(e.originalEvent.deltaY > 0){
+            if(page== lastPage) return;
+            
+            page++;
+            checkLink();
+        }else if(e.originalEvent.deltaY < 0){
+            if(page == 1) return;
+            
+            page--;
+            checkLink();
+        }
+        var posTop = (page-1) * $(window).height();
         
-		page--;
-        checkLink();
-	}
-	var posTop = (page-1) * $(window).height();
-    
-	$html.animate({scrollTop : posTop});
-    
-    
+        $html.animate({scrollTop : posTop});
+    }
 });
 
 function checkLink(){
