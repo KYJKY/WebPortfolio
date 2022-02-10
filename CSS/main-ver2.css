@@ -416,9 +416,51 @@ main #about-me p{
 
 
 
+#img_skills_HTML{
+    background-image: url("../images/html5.png");
+}
+#img_skills_CSS{
+    background-image: url("../images/css3.png");
+}
+#img_skills_JavaScript{
+    background-image: url("../images/js.png");
+}
 
+#img_skills_Java{
+    background-image: url("../images/java.png");
+}
+#img_skills_JSP{
+    background-image: url("../images/jsp.png");
+}
+#img_skills_Spring{
+    background-image: url("../images/spring.png");
+}
 
+#img_skills_MySql{
+    background-image: url("../images/mysql.png");
+}
+#img_skills_Oracle{
+    background-image: url("../images/oracle.png");
+}
+#img_skills_MyBatis{
+    background-image: url("../images/mybatis.png");
+}
 
+#img_skills_Axure{
+    background-image: url("../images/Axure.png");
+}
+#img_skills_git{
+    background-image: url("../images/GitHub.png");
+}
+#img_skills_word{
+    background-image: url("../images/word.png");
+}
+#img_skills_powerpoint{
+    background-image: url("../images/powerpoint.png");
+}
+#img_skills_excel{
+    background-image: url("../images/excel.png");
+}
 
 
 
