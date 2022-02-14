@@ -1,5 +1,5 @@
+location.href="https://kyjky.github.io/portfolio/";
 
-window.open('https://kyjky.github.io/portfolio/');
 
 window.addEventListener("wheel", function(e){
 	if(matchMedia("screen and (min-width: 820px)").matches){ 
